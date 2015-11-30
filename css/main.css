@@ -137,7 +137,7 @@ a.boxy  p  {
 }
 
 #logo  {
-	background-image: url(../images/logo_700_white.png);
+	background-image: url('/images/logo_700_white.png');
 	margin-top:  0px;
 	width:  700px;
 	height:  700px;
@@ -317,7 +317,7 @@ h2 {
 	margin-top: 0;
 }
 .loading {
-	background: url('../img/ico_loading.gif') no-repeat center center;
+	background: url('http://jhsmith.iweb.bsu.edu/hygro/img/ico_loading.gif') no-repeat center center;
 }
 section {
 	min-width: 960px;
@@ -379,7 +379,7 @@ main {
 	margin-left:  30%;	
 	width:  400px;
 	height:  200px;
-	background-image:  url(../../quote.png);
+	background-image:  url(http://jhsmith.iweb.bsu.edu/hygro/images/quote.png);
 	background-repeat:  no-repeat;
 }
 
@@ -454,14 +454,14 @@ main {
 	}
 
 /* Slide 1 */
-#slide-1 .bcg {background-image:  url(../images/home.png)}
+#slide-1 .bcg {background-image:  url(http://jhsmith.iweb.bsu.edu/hygro/images/home.png)}
 #slide-1 .hsContent {
 	bottom: 200px;
 	top: auto;
 }
 
 /* Slide 2 */
-#slide-2 .bcg {background-image: url(../../hygro_background3.png)}
+#slide-2 .bcg {background-image: url(http://jhsmith.iweb.bsu.edu/hygro/images/hygro_background3.png)}
 #slide-2 .hsContent {
 	margin-left: -450px;
 	bottom: 200px;
@@ -469,7 +469,7 @@ main {
 }
 
 /* Slide 3 */
-#slide-3 .bcg {background-image: url(../../background_blue.png)}
+#slide-3 .bcg {background-image: url(http://jhsmith.iweb.bsu.edu/hygro/images/background_blue.png)}
 #slide-3 .hsContent {
 	margin-left: -239px;
 }
@@ -479,7 +479,7 @@ main {
 	}
 
 /* Slide 4 */
-#slide-4 .bcg {background-image:  url(../../background_shadow.png)}
+#slide-4 .bcg {background-image:  url(http://jhsmith.iweb.bsu.edu/hygro/background_shadow.png)}
 #slide-4 .hsContent {
 	margin-left: -450px;
 }
