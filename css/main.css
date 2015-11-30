@@ -216,7 +216,7 @@ main {
 	margin-left:  30%;	
 	width:  400px;
 	height:  200px;
-	background-image:  url(../../quote.png);
+	background-image:  url(http://jhsmith.iweb.bsu.edu/quote.png);
 	background-repeat:  no-repeat;
 }
 
@@ -253,7 +253,7 @@ main {
     #pic {
 		width:  200px;
 		height:  100px;
-		background-image:  url(../../quote_small.png);
+		background-image:  url(http://jhsmith.iweb.bsu.edu/quote_small.png);
 		margin-top:  15%;
 		margin-left:  33%; 
     }
@@ -345,14 +345,14 @@ main {
 	}
 
 /* Slide 1 */
-#slide-1 .bcg {background-image: url(../../background_shadow.png)}
+#slide-1 .bcg {background-image: url(http://jhsmith.iweb.bsu.edu/background_shadow.png)}
 #slide-1 .hsContent {
 	bottom: 200px;
 	top: auto;
 }
 
 /* Slide 2 */
-#slide-2 .bcg {background-image: url(../../hygro_background3.png)}
+#slide-2 .bcg {background-image: url(http://jhsmith.iweb.bsu.edu/hygro_background3.png)}
 #slide-2 .hsContent {
 	margin-left: -450px;
 	bottom: 200px;
@@ -360,7 +360,7 @@ main {
 }
 
 /* Slide 3 */
-#slide-3 .bcg {background-image: url(../../background_blue.png)}
+#slide-3 .bcg {background-image: url(http://jhsmith.iweb.bsu.edu/background_blue.png)}
 #slide-3 .hsContent {
 	margin-left: -239px;
 }
@@ -370,7 +370,7 @@ main {
 	}
 
 /* Slide 4 */
-#slide-4 .bcg {background-image:  url(../../background_shadow.png)}
+#slide-4 .bcg {background-image:  url(http://jhsmith.iweb.bsu.edu/background_shadow.png)}
 #slide-4 .hsContent {
 	margin-left: -450px;
 }
