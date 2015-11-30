@@ -11,6 +11,169 @@ body {
     line-height: 1.4;
 }
 
+<!-- NAV  -->
+
+/*----- Menu Outline -----*/
+
+.menu-wrap {
+    width:50px;
+	position:  absolute;
+	top:  0;
+	left:  0;
+}
+ 
+.menu {
+    width:50px;
+    margin:0px auto;
+	position:  absolute;
+	top:  0;
+	left:  0;
+	margin-top: 10px;
+	color:  #0071BC;
+}
+ 
+.menu li {
+    margin:0px;
+    list-style:none;
+    font-family: 'Lato', sans-serif;
+	color:  #0071BC;
+}
+
+.menu  li.blue  a  {
+	color: #006FBA;	
+}
+ 
+.menu a {
+    transition:all linear 0.15s;
+    color:#0071BC;
+}
+
+a.boxy  p  {
+	margin-left:  5px;	
+}
+ 
+.menu li:hover > a, .menu .current-item > a {
+    text-decoration:none;
+}
+ 
+/*----- Top Level -----*/
+.menu > ul > li {
+    float:left;
+    display:inline-block;
+    position:absolute;
+    font-size:26px;
+}
+ 
+.menu > ul > li > a {
+    padding:5px 20px;
+    display:inline-block;
+}
+ 
+.menu > ul > li:hover > a, .menu > ul > .current-item > a {
+}
+ 
+/*----- Bottom Level -----*/
+.menu li:hover .sub-menu {
+    z-index:1;
+    opacity:1;
+}
+ 
+.sub-menu {
+    width:140%;
+    padding:0px 0px;
+    position:absolute;
+    top:100%;
+    left:0px;
+    z-index:-1;
+    opacity:0;
+    transition:opacity linear 0.15s;
+    box-shadow:0px 2px 3px rgba(0,0,0,0.2);
+}
+ 
+.sub-menu li {
+    display:block;
+    font-size:12px;
+	text-align:  left;
+}
+ 
+.sub-menu li a {
+    padding:10px 17px;
+    display:block;
+	text-align:  left;
+}
+ 
+.sub-menu li a:hover, .sub-menu .current-item a {
+    background:#3e3436;
+	color:  #a6c53a;
+}
+
+<!-- END NAV  -->
+
+.home {
+	width:26px;
+	height:26px;
+	position:fixed;
+	background-color:transparent;
+	bottom:90%;
+	left:40px;
+	border:1px solid #F00;
+	border-radius:50%;
+	z-index:5;
+	opacity:0.6;
+	transition:0.3s;
+	-o-transition:0.3s;
+	-moz-transition:0.3s;
+	-webkit-transition:0.3s;
+	-ms-transition:0.3s;
+}
+
+.home:hover {
+  opacity:1;
+  transition:0.3s;
+  -o-transition:0.3s;
+  -moz-transition:0.3s;
+  -webkit-transition:0.3s;
+  -ms-transition:0.3s;
+}
+
+#logo  {
+	background-image: url(../images/logo_700_white.png);
+	margin-top:  0px;
+	width:  700px;
+	height:  700px;
+	margin-left:  auto;
+	margin-right:  auto;
+}
+
+img  {
+	max-width:  100%;
+	height:  auto;	
+}
+
+#text  {
+	width:  30%;
+	height:  30%;	
+	position:  absolute;
+}
+
+.INDiTitle  {
+	font-family:  'Lato', sans-serif;
+	font-size:  22px;
+	font-weight:  400;
+	color:  # 666;
+	min-width:  550px;
+	width:  10%;		
+}
+
+.INDiText  {
+	font-family:  'Lato', sans-serif;
+	font-size:  18px;
+	font-weight:  300;
+	color:  # 000;
+	width:  420px;
+	text-align:  justify;	
+}
+
 
 #navbar  {
 	background-color: #FFF;
@@ -154,7 +317,7 @@ h2 {
 	margin-top: 0;
 }
 .loading {
-	background: url('http://jhsmith.iweb.bsu.edu/simple-parallax-scrolling-tutorial-s/img/ico_loading.gif') no-repeat center center;
+	background: url('../img/ico_loading.gif') no-repeat center center;
 }
 section {
 	min-width: 960px;
@@ -216,7 +379,7 @@ main {
 	margin-left:  30%;	
 	width:  400px;
 	height:  200px;
-	background-image:  url('http://jhsmith.iweb.bsu.edu/quote.png');
+	background-image:  url(../../quote.png);
 	background-repeat:  no-repeat;
 }
 
@@ -233,35 +396,9 @@ main {
 	width:  90%%;	
 }
 
-@media only screen and (max-width: 1070px) {
-    .more {
-		font-size:  24px; 
-		margin-left:  24%;
-		margin-top:  22%;
-    }
-}
-
-@media only screen and (max-width: 850px) {
-    .more {
-		font-size:  16px; 
-		margin-left:  26%;
-		margin-top:  24%;
-    }
-}
-
 @media only screen and (max-width: 1100px) {
     #pic {
-		width:  200px;
-		height:  100px;
-		background-image:  url('http://jhsmith.iweb.bsu.edu/quote_small.png');
-		margin-top:  15%;
-		margin-left:  33%; 
-    }
-}
-
-@media only screen and (max-width: 892px) {
-    #pic {
-		background-image:  none; 
+        background-image: none; 
     }
 }
 
@@ -279,37 +416,9 @@ main {
 
 @media only screen and (max-width: 1100px) {
     .statement2 {
-        margin-top: 6%;
-		font-size:  16px; 
+        margin-top: -12%; 
     }
 }
-
-@media only screen and (max-width: 1100px) {
-    .statement {
-		font-size:  18px; 
-    }
-}
-
-@media only screen and (max-width: 892px) {
-    .statement2 {
-        margin-top: -2%;
-		font-size:  18px; 
-    }
-}
-
-@media only screen and (max-width: 892px) {
-    .statement {
-		font-size:  18px; 
-    }
-}
-
-@media only screen and (max-width: 640px) {
-    .statement2 {
-		margin-top:  8%; 
-    }
-}
-
-
 
 .hsContainer {
 	width: 100%;
@@ -345,14 +454,14 @@ main {
 	}
 
 /* Slide 1 */
-#slide-1 .bcg {background-image: url('http://jhsmith.iweb.bsu.edu/background_shadow.png')}
+#slide-1 .bcg {background-image:  url(../images/home.png)}
 #slide-1 .hsContent {
 	bottom: 200px;
 	top: auto;
 }
 
 /* Slide 2 */
-#slide-2 .bcg {background-image: url('http://jhsmith.iweb.bsu.edu/hygro_background3.png')}
+#slide-2 .bcg {background-image: url(../../hygro_background3.png)}
 #slide-2 .hsContent {
 	margin-left: -450px;
 	bottom: 200px;
@@ -360,7 +469,7 @@ main {
 }
 
 /* Slide 3 */
-#slide-3 .bcg {background-image: url('http://jhsmith.iweb.bsu.edu/background_blue.png')}
+#slide-3 .bcg {background-image: url(../../background_blue.png)}
 #slide-3 .hsContent {
 	margin-left: -239px;
 }
@@ -370,7 +479,7 @@ main {
 	}
 
 /* Slide 4 */
-#slide-4 .bcg {background-image:  url('http://jhsmith.iweb.bsu.edu/background_shadow.png')}
+#slide-4 .bcg {background-image:  url(../../background_shadow.png)}
 #slide-4 .hsContent {
 	margin-left: -450px;
 }
